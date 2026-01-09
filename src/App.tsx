@@ -1,13 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import './App.css'
-import {
-  type GateStatus,
-  type ProjectState,
-  canEditGate,
-  createInitialProjectState,
-  gateDefinitions,
-  getGateStatus,
-} from './data/gates'
+import { type GateStatus, type ProjectState, getGateStatus } from './data/models'
+import { canEditGate, createInitialProjectState, gateDefinitions } from './data/gates'
 import { loadProjectState, saveProjectState } from './utils/storage'
 
 type OverrideFormState = {

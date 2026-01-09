@@ -1,4 +1,4 @@
-import { type ProjectState } from '../data/gates'
+import { type ProjectState } from '../data/models'
 
 const STORAGE_KEY = 'gatekeeper-project'
 
